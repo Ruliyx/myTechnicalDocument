@@ -9,230 +9,301 @@
     <body>
 
         <!-------------------------- Navbar ---------------------------->
-        <div id="navbar">
+        <nav id="navbar">
             <header>
                 <h1>HTML Technical Document</h1>
             </header>
 
             <ul>
-                <li><a class="nav-link" href="#introduction">       Introduction            </a></li>
-                <li><a class="nav-link" href="#html_basics">        Learn HTML Basics       </a></li>
-                <li><a class="nav-link" href="#html_elements">      All about Elements      </a></li>
-                <li><a class="nav-link" href="#html_attributes">    Everything on Attributes</a></li>
-                <li><a class="nav-link" href="#html_headings">      Headings                </a></li>
-                <li><a class="nav-link" href="#html_paragraphs">    Paragraphs              </a></li>
+                <li><a class="nav-link" href="#Introduction">             Introduction            </a></li>
+                <li><a class="nav-link" href="#Learn_HTML_Basics">        Learn HTML Basics       </a></li>
+                <li><a class="nav-link" href="#All_about_Elements">       All about Elements      </a></li>
+                <li><a class="nav-link" href="#Everything_on_Attributes"> Everything on Attributes</a></li>
+                <li><a class="nav-link" href="#Headings">                 Headings                </a></li>
+                <li><a class="nav-link" href="#Paragraphs">               Paragraphs              </a></li>
+                <li><a class="nav-link" href="#References">               References              </a></li>
             </ul>
 
 
-        </div>
+        </nav>
 
         <!-------------------------- Main ---------------------------->
         <main id="main-doc">
 
             <!-------------------------- Introduction ---------------------------->
-            <section class="main-section">
+            <section class="main-section" id="Introduction">
 
-                <header id="introduction">
-
+                <header>
                     <h2>Introduction</h2>
-                    <p>
-                        HTML stands for Hypertext Markup Language, is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
-                    </p>
-                    <h3>HTML also:</h3>
-                    <ul>
-                        <li>Describes the structure of a Web page</li>
-                        <li>Consists of a series of elements</li>
-                        <li>Elements tell the browser how to display the content</li>
-                        <li>Elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
-                    </ul>
-
                 </header>
+
+                <p>
+                    HTML stands for Hypertext Markup Language, is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
+                </p>
+                <h3>HTML also:</h3>
+                <ul>
+                    <li>Describes the structure of a Web page</li>
+                    <li>Consists of a series of elements</li>
+                    <li>Elements tell the browser how to display the content</li>
+                    <li>Elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+                </ul>
+
             </section>
 
             <!-------------------------- Learn HTML Basics ---------------------------->
-            <section class="main-section">
+            <section class="main-section" id="Learn_HTML_Basics">
 
-                <header id="html_basics">
-
+                <header>
                     <h2>Learn HTML Basics</h2>
-
-                    <h3>Basic HTML document syntax</h3>
-
-                    <code class="my-code">
-                        <ul>
-                            <li><code class="codespan">&lt;!DOCTYPE html&gt;</code></li>
-                            <li><code class="codespan">&lt;html&gt;</code></li><br>
-                            <li><code class="codespan">&lt;head&gt;</code></li>
-                            <li><code class="codespan">&lt;title&gt; Page Title &lt;title&gt;</code></li>
-                            <li><code class="codespan">&lt;/head&gt;</code></li><br>
-                            <li><code class="codespan">&lt;body&gt;</code></li>
-                            <li><code class="codespan">&lt;h1&gt; My First Heading &lt;/h1&gt;</code></li>
-                            <li><code class="codespan">&lt;p&gt; My first paragraph. &lt;/p&gt;</code></li>
-                            <li><code class="codespan">&lt;/body&gt;</code></li><br>
-                            <li><code class="codespan">&lt;/html&gt;</code></li>
-                        </ul>
-                    </code>
-
-                    <h3>Syntax Explained</h3>
-
-                    <ul>
-                        <li>The <code class="codespan">&lt;!DOCTYPE html&gt;</code> declaration defines
-                        that this document is an HTML5 document</li>
-                        <li>The <code class="codespan">&lt;html&gt;</code> element is the root element of an HTML
-                        page</li>
-                        <li>The <code class="codespan">&lt;head&gt;</code> element contains meta information about the
-                        HTML page</li>
-                        <li>The <code class="codespan">&lt;title&gt;</code> element specifies a title for the
-                        HTML page (which is shown in the browser's title bar or in the page's tab)</li>
-                        <li>The <code class="codespan">&lt;body&gt;</code> element defines the
-                        document's body, and is a container for all the visible contents, such as
-                        headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
-                        <li>The <code class="codespan">&lt;h1&gt;</code> element defines a large heading</li>
-                        <li>The <code class="codespan">&lt;p&gt;</code> element defines a paragraph</li>
-                    </ul>
-
                 </header>
+
+                <h3>Basic HTML document syntax</h3>
+
+                <code class="my-code">
+                        <code class="codespan">&lt;!DOCTYPE html&gt;</code>
+                        <code class="codespan">&lt;html&gt;</code><br>
+                        <code class="codespan">&lt;head&gt;</code>
+                        <code class="codespan">&lt;title&gt; Page Title &lt;title&gt;</code>
+                        <code class="codespan">&lt;/head&gt;</code><br>
+                        <code class="codespan">&lt;body&gt;</code>
+                        <code class="codespan">&lt;h1&gt; My First Heading &lt;/h1&gt;</code>
+                        <code class="codespan">&lt;p&gt; My first paragraph. &lt;/p&gt;</code>
+                        <code class="codespan">&lt;/body&gt;</code><br>
+                        <code class="codespan">&lt;/html&gt;</code>
+                </code>
+
+                <h3>Syntax Explained</h3>
+
+                <ul>
+                    <li>The <code class="codespan">&lt;!DOCTYPE html&gt;</code> declaration defines
+                    that this document is an HTML5 document</li>
+                    <li>The <code class="codespan">&lt;html&gt;</code> element is the root element of an HTML
+                    page</li>
+                    <li>The <code class="codespan">&lt;head&gt;</code> element contains meta information about the
+                    HTML page</li>
+                    <li>The <code class="codespan">&lt;title&gt;</code> element specifies a title for the
+                    HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+                    <li>The <code class="codespan">&lt;body&gt;</code> element defines the
+                    document's body, and is a container for all the visible contents, such as
+                    headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                    <li>The <code class="codespan">&lt;h1&gt;</code> element defines a large heading</li>
+                    <li>The <code class="codespan">&lt;p&gt;</code> element defines a paragraph</li>
+                </ul>
+
+
             </section>
 
             <!-------------------------- All about Elements ---------------------------->
-            <section class="main-section">
+            <section class="main-section" id="All_about_Elements">
 
-                <header id="html_elements">
-
+                <header>
                     <h2>All about Elements</h2>
-
-                    <p>
-                        An HTML element is a type of HTML document component, one of several types of HTML nodes. HTML document is composed of a tree of simple HTML nodes, such as text nodes, and HTML elements, which add semantics and formatting to parts of document. Each element can have HTML attributes specified.
-
-                    </p>
-
-                    <span>The HTML <strong>element</strong> is everything from the start tag to the end tag:</span><br>
-                    <code class="codespan">&lt;tagname&gt; Content goes here... &lt;/tagname&gt;</code> <br><br>
-
-                    <table class="w3-table-all notranslate">
-                        <tr>
-                            <th>Start tag</th>
-                            <th>Element content</th>
-                            <th>End tag</th>
-                        </tr>
-                        <tr>
-                            <td>&lt;h1&gt;</td>
-                            <td>My First Heading</td>
-                            <td>&lt;/h1&gt;</td>
-                        </tr>
-                        <tr>
-                            <td>&lt;p&gt;</td>
-                            <td>My first paragraph.</td>
-                            <td>&lt;/p&gt;</td>
-                        </tr>
-                        <tr>
-                            <td>&lt;br&gt;</td>
-                            <td><em>none</em></td>
-                            <td><em>none</em></td>
-                        </tr>
-                    </table><br>
-
-                    <div class="note">
-                        <strone>Note:</strone> Some HTML elements have no content (like the &lt;br&gt; element). These elements are called empty elements. Empty elements do not have an end tag!
-                    </div>
-
-                    <h3>Nested HTML Elements</h3>
-
-                    <ul>
-                        <li>HTML elements can be nested (this means that elements can contain other elements).</li>
-                        <li>All HTML documents consist of nested HTML elements.</li>
-                    </ul>
-
                 </header>
+
+                <p>
+                    An HTML element is a type of HTML document component, one of several types of HTML nodes. HTML document is composed of a tree of simple HTML nodes, such as text nodes, and HTML elements, which add semantics and formatting to parts of document. Each element can have HTML attributes specified.
+
+                </p>
+
+                <p>The HTML <strong>element</strong> is everything from the start tag to the end tag:</p>
+                <code class="codespan my-code">&lt;tagname&gt; Content goes here... &lt;/tagname&gt;</code> <br>
+
+                <table class="table">
+                    <tr>
+                        <th>Start tag</th>
+                        <th>Element content</th>
+                        <th>End tag</th>
+                    </tr>
+                    <tr>
+                        <td>&lt;h1&gt;</td>
+                        <td>My First Heading</td>
+                        <td>&lt;/h1&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>My first paragraph.</td>
+                        <td>&lt;/p&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td><em>none</em></td>
+                        <td><em>none</em></td>
+                    </tr>
+                </table><br>
+
+                <div class="note">
+                    <strong>Note:</strong> Some HTML elements have no content (like the &lt;br&gt; element). These elements are called empty elements. Empty elements do not have an end tag!
+                </div>
+
+                <h3>Nested HTML Elements</h3>
+
+                <ul>
+                    <li>HTML elements can be nested (this means that elements can contain other elements).</li>
+                    <li>All HTML documents consist of nested HTML elements.</li>
+                </ul>
+
+
             </section>
 
             <!-------------------------- Everything on Attributes ---------------------------->
-            <section class="main-section">
+            <section class="main-section" id="Everything_on_Attributes">
 
-                <header id="html_attributes">
-
+                <header>
                     <h2>Everything on Attributes</h2>
-
-                    <p>
-                        HTML attributes are special words used inside the opening tag to control the element's behaviour. HTML attributes are a modifier of an HTML element type.
-                    </p>
-
-                    <ul>
-                        <li>All HTML elements can have <strong>attributes</strong></li>
-                        <li>Attributes provide <strong>additional information</strong> about elements</li>
-                        <li>Attributes are always specified in <strong>the start tag</strong></li>
-                        <li>Attributes usually come in name/value pairs like: <strong>name=&quot;value&quot;</strong></li>
-                    </ul>
-
-                    <code>
-
-                    </code>
-
-                    <p>
-
-                    </p>
-
-                    <ul>
-                        <li></li>
-                        <li></li>
-                    </ul>
                 </header>
+
+                <p>
+                    HTML attributes are special words used inside the opening tag to control the element's behaviour. HTML attributes are a modifier of an HTML element type.
+                </p>
+
+                <ul>
+                    <li>All HTML elements can have <strong>attributes</strong></li>
+                    <li>Attributes provide <strong>additional information</strong> about elements</li>
+                    <li>Attributes are always specified in <strong>the start tag</strong></li>
+                    <li>Attributes usually come in name/value pairs like: <strong>name=&quot;value&quot;</strong></li>
+                </ul>
+
+                <h3>The href Attribute</h3>
+                <p>
+                    The <code>&lt;a&gt;</code> tag defines a hyperlink. The <code>href</code> attribute specifies the URL of the page the link goes to:
+                </p>
+
+                <code class="my-code">
+                    &lt;a&gt; href="https://www.w3schools.com"&gt;Visit W3Schools&lt;/a&gt;
+                </code>
+
+                <h3>The src Attribute</h3>
+                <p>
+                    The <code>&lt;img&gt;</code> tag is used to embed an image in an HTML page. The <code>src</code> attribute specifies the path to the image to be displayed:
+                </p>
+
+                <code class="my-code">
+                    &lt;img src="img_girl.jpg"&gt;
+                </code>
+
+                <p>There are two ways to specify the URL in the <code>src</code> attribute:</p>
+
+                <ol>
+                    <li><strong>Absolute URL</strong> - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".</li>
+                    <li><strong>Relative URL</strong> - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".</li></li>
+                </ol>
+
+                <div class="note">
+                    <strong>Note:</strong> External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+                </div>
+
+
             </section>
 
             <!-------------------------- Headings ---------------------------->
-            <section class="main-section">
+            <section class="main-section" id="Headings">
 
-                <header id="html_headings">
-
+                <header>
                     <h2>Headings</h2>
-
-                    <p>
-
-                    </p>
-
-                    <code>
-
-                    </code>
-
-                    <p>
-
-                    </p>
-
-                    <ul>
-                        <li></li>
-                        <li></li>
-                    </ul>
                 </header>
+
+                <p>HTML headings are titles or subtitles that you want to display on a webpage.</p>
+
+                <h3>Example</h3>
+                <div class="example">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div>
+
+                <h3>Defining Headings</h3>
+                <p>
+                    HTML headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.<br>
+                    <code>&lt;h1&gt;</code> defines the most important heading. <code>&lt;h6&gt;</code> defines the least important heading.
+                </p>
+
+                <h3>Example</h3>
+                <code class="my-code">
+                    &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+                    &lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+                    &lt;h3&gt;Heading 3&lt;/h3&gt;<br>
+                    &lt;h4&gt;Heading 4&lt;/h4&gt;<br>
+                    &lt;h5&gt;Heading 5&lt;/h5&gt;<br>
+                    &lt;h6&gt;Heading 6&lt;/h6&gt;
+                </code>
+
+                <div class="note">
+                    <strong>Note:</strong> Browsers automatically add some white space (a margin) before and after a heading.
+                </div>
+
+                <h3>Headings Are Important</h3>
+                <p>
+                    HTML headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.<br>
+                    <code>&lt;h1&gt;</code> defines the most important heading. <code>&lt;h6&gt;</code> defines the least important heading.
+                </p>
+
+                <ul>
+                    <li>Search engines use the headings to index the structure and content of your web pages.</li>
+                    <li>Users often skim a page by its headings. It is important to use headings to show the document structure.</li>
+                    <li><code>&lt;h1&gt;</code> headings should be used for main headings, followed by <code>&lt;h2&gt;</code> headings, then the less important <code>&lt;h3&gt;</code>, and so on.</li>
+                </ul>
+
+                <div class="note">
+                    <strong>Note:</strong> Use HTML headings for headings only. Don't use headings to make text <strong>BIG</strong> or <strong>bold</strong>.
+                </div>
+
+
             </section>
 
             <!-------------------------- Paragraphs ---------------------------->
-            <section class="main-section">
+            <section class="main-section" id="Paragraphs">
 
-                <header id="html_paragraphs">
-
+                <header>
                     <h2>Paragraphs</h2>
-
-                    <p>
-
-                    </p>
-
-                    <code>
-
-                    </code>
-
-                    <p>
-
-                    </p>
-
-                    <ul>
-                        <li></li>
-                        <li></li>
-                    </ul>
                 </header>
+
+                <ul>
+                    <li>A paragraph always starts on a new line, and is usually a block of text.</li>
+                    <li>The HTML <code>&lt;p&gt;</code> element defines a paragraph.</li>
+                    <li>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+                    </li>
+                </ul>
+
+                <h3>Example</h3>
+                <code class="my-code">
+                    &lt;p&gt;This is a paragraph&lt;/p&gt;<br>
+                    &lt;p&gt;This is another paragraph&lt;/p&gt;<br>
+                </code>
+
+                <p>
+                    You cannot always be sure how HTML will be displayed.<br>
+                    Large or small screens, and resized windows will create different results.<br>
+                    With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.<br>
+                    The browser will automatically remove any extra spaces and lines when the page is displayed:
+                </p>
+
+                <h3>Example</h3>
+                <code class="my-code">
+                    &lt;p&gt;This paragraph<br>
+                    contains a lot of lines<br>
+                    in the source code,<br>
+                    but the browser<br>
+                    ignores it.&lt;/p&gt;<br><br>
+                    <pre>&lt;p&gt;This paragraph<br>contains         a lot of spaces<br>in the source         code,<br>but the        browser<br>ignores it.&lt;/p&gt;<br></pre>
+                </code>
+
             </section>
 
+            <!-------------------------- Reference ---------------------------->
+            <section class="main-section" id="References">
 
+                <header>
+                    <h2>References</h2>
+                </header>
 
+                <ul>
+                    <li>All the documentation in this page is taken from <a target="_blank" href="https://www.w3schools.com/html/default.asp">W3Schools</a> and <a target="_blank" href="https://en.wikipedia.org/wiki/HTML">Wikipedia</a> </li>
+                </ul>
+
+            </section>
         </main>
 
     </body>

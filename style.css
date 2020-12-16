@@ -6,21 +6,129 @@ body {
     box-sizing: border-box;
     display: block;
     font-family: Roboto, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 10px;
 }
 
+/********************  Navbar  ********************/
+#navbar header {
+    padding-left: 2vw;
+}
 
+#navbar {
+    width: 30vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    border-right: 2px solid black;
+    font-size: 2em;
+    display: block;
+}
 
+#navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#navbar ul li{
+    height: 5vh;
+    border-top: 1px solid black;
+    padding: 20px auto;
+}
 
+.nav-link {
+    display: block;
+    height: 5vh;
+    text-decoration: none;
+    padding: 1.5vh 0vw 0vh 1.5vw;
+    color: black;
+}
 
+.nav-link:active {
+    color: black;
+}
+.nav-link:visited {
+    color: black;
+}
+/********************  Main  ********************/
+
+#main-doc {
+    position:absolute;
+    left: 30vw;
+    font-size: 1.8em;
+    padding: 0vh 2vw;
+}
+
+.main-section header h2 {
+    font-size: 1.6em;
+    border-bottom: 1px solid #c0c0c0 ;
+    padding: 2vh 0vw;
+}
+
+.main-section  {
+    padding-left: 1vw;
+}
+
+.main-section ul li, ol li {
+    padding-bottom: 1.8vh;
+}
+
+.main-section p {
+    line-height: 3vh;
+}
+
+.my-code {
+    display: block;
+    padding: 1.2em 1.2em 1.2em 3em;
+    margin: 2vh 0vw;
+    background-color: rgba(50, 50, 50, 0.2);
+}
 
 .my-code ul, .my-code li {
     margin: 0px;
     padding: 0px;
 }
 
-.codespan {
-    margin: 0px;
-    padding: 0px;
-    display: inline;
+.note {
+    display: block;
+    padding: 1.2em 1.2em 1.2em 3em;
+    margin: 2vh 0vw;
+    background-color: rgba(231, 235, 12, 0.6);
+}
+
+.example h1 {
+    font-size: 2em;
+}
+
+.table {
+    text-align: left;
+    width: 40vw;
+    border-collapse: collapse;
+}
+
+table, th,td {
+    border: 1px solid black;
+}
+th,td {
+    padding: 10px;
+}
+
+
+
+
+@media (max-width: 940px) {
+
+    #navbar {
+        width: 90vw;
+        height: 500PX;
+        position: relative;
+        margin: 0px auto;
+        border: 2px solid black;
+    }
+
+    #main-doc {
+        padding: 0px 2vw;
+        left: 0px;
+    }
+
 }
